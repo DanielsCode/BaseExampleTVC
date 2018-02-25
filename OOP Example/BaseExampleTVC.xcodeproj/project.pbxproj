@@ -13,6 +13,7 @@
 		65C1209D20363DC4009039C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65C1209B20363DC4009039C7 /* Main.storyboard */; };
 		65C1209F20363DC4009039C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65C1209E20363DC4009039C7 /* Assets.xcassets */; };
 		65C120A220363DC4009039C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65C120A020363DC4009039C7 /* LaunchScreen.storyboard */; };
+		65C120AA20363EBF009039C7 /* BaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C120A920363EBF009039C7 /* BaseTableViewController.swift */; };
 		65C120AC20363EEC009039C7 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C120AB20363EEC009039C7 /* Model.swift */; };
 		65C120AE20363F91009039C7 /* PizzaTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C120AD20363F91009039C7 /* PizzaTableViewController.swift */; };
 		65C120B020363FA2009039C7 /* BurgerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C120AF20363FA2009039C7 /* BurgerTableViewController.swift */; };
@@ -27,6 +28,7 @@
 		65C1209E20363DC4009039C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		65C120A120363DC4009039C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		65C120A320363DC4009039C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65C120A920363EBF009039C7 /* BaseTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTableViewController.swift; sourceTree = "<group>"; };
 		65C120AB20363EEC009039C7 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		65C120AD20363F91009039C7 /* PizzaTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaTableViewController.swift; sourceTree = "<group>"; };
 		65C120AF20363FA2009039C7 /* BurgerTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BurgerTableViewController.swift; sourceTree = "<group>"; };
@@ -46,6 +48,7 @@
 		65782588203C9D76006C0F03 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				65C120A920363EBF009039C7 /* BaseTableViewController.swift */,
 				65C120AD20363F91009039C7 /* PizzaTableViewController.swift */,
 				65C120AF20363FA2009039C7 /* BurgerTableViewController.swift */,
 			);
@@ -172,6 +175,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65C120AA20363EBF009039C7 /* BaseTableViewController.swift in Sources */,
 				65C120AC20363EEC009039C7 /* Model.swift in Sources */,
 				65C120AE20363F91009039C7 /* PizzaTableViewController.swift in Sources */,
 				65C1209820363DC4009039C7 /* AppDelegate.swift in Sources */,

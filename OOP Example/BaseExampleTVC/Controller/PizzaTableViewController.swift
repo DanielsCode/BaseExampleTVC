@@ -8,10 +8,8 @@
 
 import UIKit
 
-class PizzaTableViewController: UITableViewController {
+class PizzaTableViewController: BaseTableViewController {
 
-    var data = [Pizza]()
-    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -33,9 +31,7 @@ class PizzaTableViewController: UITableViewController {
         cell.titleLabel.text = data[indexPath.row].title
         return cell
     }
-    
-    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        // #warning Incomplete implementation, return the number of rows
-        return data.count
-    }
+
+
+
 }

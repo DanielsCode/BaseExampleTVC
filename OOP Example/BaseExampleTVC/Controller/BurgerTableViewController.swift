@@ -8,10 +8,8 @@
 
 import UIKit
 
-class BurgerTableViewController: UITableViewController {
+class BurgerTableViewController: BaseTableViewController {
 
-    var data = [Burger]()
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -33,8 +31,5 @@ class BurgerTableViewController: UITableViewController {
         cell.titleLabel.text = data[indexPath.row].title
         return cell
     }
-    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        // #warning Incomplete implementation, return the number of rows
-        return data.count
-    }
+    
 }
